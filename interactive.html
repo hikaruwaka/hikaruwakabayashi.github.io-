@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<img id="logo "src="assets/css/ST-logo"><br>
+
+<html>
+<script type="text/javascript" src="assets/js/jquery.js" ></script>
+<link rel="stylesheet" type="text/css" href="assets/css/interactive.css" >
+
+<script>
+$(document).ready(function(){
+	$("#circle-connect").click(function(){
+		console.log($(".connect").css("display"));
+		if ($(".connect").css("display") === "none"){
+			$(".connect").slideDown();
+			$("#circle-connect").removeClass("circle").addClass("circle-clicked");
+		}
+		else{
+			$(".connect").slideUp();
+			$("#circle-connect").removeClass("circle-clicked").addClass("circle");
+		}
+	});
+});
+
+</script>
+
+<head> </head>
+
+<body>
+	<div class="todonext">What to do next.. :)</div>
+
+	<div class="container">
+	        	 <div class= "circle" id="circle-connect">Connect</div>
+            <div class="connect">
+              Find an anonymous/unique username pair to help you with language learning!
+              <div class="form">
+                     <div class="item">Name</div>
+                     <div class="item2">Language or Country</div>
+                     <div class="item3">e-mail address</div>
+                     <div class="item4">Other preferences or comments</div>
+
+              </div>
+            </div>
+            <div class="circle" id="circle-suggestions">Suggestions</div>
+            <div class="suggestions">
+               In order to make ST something of the best of your use, give us some suggestions! <br>Questions, suggestions of photos and useful websites are welcomed!
+               <div class="eadd">slangsandthings@gmail.com</div>
+            </div>
+            
+	</div>
+
+
+<body/>
+
+</html>

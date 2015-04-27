@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<img id="logo "src="assets/css/ST-logo"><br>
+
+
+<head>
+  
+</head>
+<script type="text/javascript" src="assets/js/jquery.js" ></script>
+<link rel="stylesheet" type="text/css" href="assets/css/singlish.css" >
+<script>
+$(document).ready(function(){
+	$("#circle-where").click(function(){
+		console.log($(".where").css("display"));
+		if ($(".where").css("display") === "none"){
+			$(".where").slideDown();
+			$("#circle-where").removeClass("circle").addClass("circle-clicked");
+		}
+		else{
+			$(".where").slideUp();
+			$("#circle-where").removeClass("circle-clicked").addClass("circle");
+		}
+			
+	});
+	$("#circle-language").click(function(){
+		console.log($(".language").css("display"));
+		if ($(".language").css("display") === "none"){
+		$(".language").slideDown();
+		$("#circle-language").removeClass("circle").addClass("circle-clicked");
+	    }
+	    else{
+	    	$(".language").slideUp();
+			$("#circle-language").removeClass("circle-clicked").addClass("circle");
+	    }
+	});
+
+$("#circle-slangs").click(function(){
+		console.log($(".slangs").css("display"));
+		if ($(".slangs").css("display") === "none"){
+		$(".slangs").slideDown();
+		$("#circle-slangs").removeClass("circle").addClass("circle-clicked");
+	    }
+	    else{
+	    	$(".slangs").slideUp();
+			$("#circle-slangs").removeClass("circle-clicked").addClass("circle");
+	    }
+
+
+	});
+$("#circle-photos").click(function(){
+		console.log($(".photos").css("display"));
+		if ($(".photos").css("display") === "none"){
+		$(".photos").slideDown();
+		$("#circle-photos").removeClass("circle").addClass("circle-clicked");
+	    }
+	    else{
+	    	$(".photos").slideUp();
+			$("#circle-photos").removeClass("circle-clicked").addClass("circle");
+	    }
+
+
+	});
+$("#circle-links").click(function(){
+		console.log($(".links").css("display"));
+		if ($(".links").css("display") === "none"){
+		$(".links").slideDown();
+		$("#circle-links").removeClass("circle").addClass("circle-clicked");
+	    }
+	    else{
+	    	$(".links").slideUp();
+			$("#circle-links").removeClass("circle-clicked").addClass("circle");
+	    }
+
+
+	});
+
+
+
+	$("#scroll-top").click(function(){
+		$(document).scrollTop(0);
+	});
+});
+
+</script>
+
+<body>
+   <center>
+   	<div class="h1">
+         -Singlish-
+   </div>
+	</center>
+   <div class="container">
+        <div class= "circle" id="circle-where">Where is Singapore?</div>
+
+        <div class="where">
+         <img id="map" src="assets/css/singaporemap"><br>
+         Located in the center of Southeast Asia, the climate is hot and humid year round, the temperature almost never drops below 20°C (68°F). 
+        </div>
+
+        <div class= "circle" id="circle-language">The Language</div>
+            <div class="language">
+            With a diverse population consisting mainly of Chinese, Malasian, and Indian, the situation of the language(s) spoken in Singapore is very interesting to examine. The official language is English, as it is the language of business and administration. Other languages spoken are Chinese, Malay, and Tamil.
+            </div>
+
+        <div class= "circle" id="circle-slangs">The Slangs</div>
+           <div class="slangs">
+           "Lah" "Leh" "Meh", are some of the many phrases added to the end of the sentence, and plays an significant role in Singaporean English, also known as, "Singlish". Here are some examples.<br>
+
+                <div class="items">
+                "I dun have lah"=I really don`t have it.<br>
+                "I dun have leh"=For some reason, I don`t have it.<br>
+                "I dun have lor"=I wish I had it, but sadly I don`t.<br>
+                "I dun have liao"=I used to have it, but don`t have anymore.<br>
+                "I dun have ha"=I reminded you, I don`t have it.<br>
+                "I dun have meh?"=You think I don`t have it?<br>
+
+                </div>
+                   <div class="expla">
+                     As you can see, Singlish is very efficient becasue you can communicate effectively just by changing the last word of a sentence.
+                   </div>
+        
+           <div class="andthings">
+                     Some useful words and sentences.<br>
+                     Ex1) "Shiok la!" :Great!!<br>
+                     Ex2) "Noob..": So amateur..<br>
+                     Ex3) "Wah lah we!" : What da fuXX.<br>
+        </div>
+           </div>
+           <div class= "circle" id="circle-photos">Photos</div>
+              <div class="photos">
+              	<img id= "pic1" src="assets/css/singaporepic1.jpg"> 
+              	<img id="pic2" src="assets/css/singaporepic2.JPG">
+              	 <img id="pic3" src="assets/css/singaporepic3.jpg">
+              	 <img id="pic4" src="assets/css/singaporepic4.jpg"><br>
+              </div> 
+<br><br><br><br>
+           <div class= "circle" id="circle-links">Fun links</div>
+                   <a href="https://www.youtube.com/user/wahbanana"> Wahbanana</a><br>
+           </div>
+   </div>  
+       
+        
+
+<p id="scroll-top">Top</p>
+
+</body>
+
+</html>

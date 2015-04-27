@@ -1,0 +1,171 @@
+@font-face {
+    font-family: sunnfont;
+    src: url(../SUNN.otf);
+}
+
+
+body{
+	color:#00E6E6;
+	font-size: 20pt;
+	background-color:#FFF;
+	text-align: center;
+	font-family: "Lato";
+	margin: 0;
+}
+
+.h1{
+	font-family: sunnfont;
+	src:url(../SUNN.oft);
+	font-size: 150pt;
+}
+
+#logo{
+	height:300px;
+	width:800px;
+}
+
+.container{
+	vertical-align: 
+}
+
+
+.circle{
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+	background-color: #00E6E6;
+	margin-left: calc(50% - 100px);
+	padding: 40pt;
+	display: block;
+	margin-top:30px;
+	margin-bottom: 30px;
+	color:gray;
+	font-family: sunnfont;
+	text-align: center;
+	font-size: 40pt;
+}
+
+.circle-clicked{
+	width: 90px;
+	height:90px;
+	border-radius: 50%;
+	background-color: #168EF0;
+	margin-left: calc(50% - 100px);
+	padding: 40pt;
+	display: block;
+	margin-top:30px;
+	margin-bottom: 30px;
+	color:white;
+	font-family: sunnfont;
+	text-align: center;
+	font-size: 30pt;
+}
+
+.circle:hover{
+	cursor: pointer;
+
+}
+
+
+.where{
+	font-family: 'Lato';
+	font-size: 20pt;
+    color:gray;
+    display: none;
+}
+
+#map{
+	height:400pt;
+	width:500pt;
+}
+
+.language{
+	font-family: 'Lato';
+	font-size: 20pt;
+	color:gray;
+	display: none;
+	width:80%;
+	margin-left: 10%;
+
+}
+
+.slangs{
+	font-family: 'Lato';
+	font-size: 20pt;
+	color:gray;
+	display:none;
+}
+
+
+.items{
+	font-style: italic;
+    color:gray;
+    font-family: sunnfont;
+    font-size:40pt;
+	src:url(../SUNN.oft);
+    padding:25px;
+display: none;
+
+}
+
+.expla{
+	color:gray;
+	font-family: 'Lato';
+	font-size: 20pt;
+	display: none;
+}
+
+
+.andthings{
+    color:gray;
+	font-family: 'Lato';
+	font-size: 20pt;
+	display: none;
+}
+
+.photos{
+	display: none;
+}
+
+#pic1{
+	height:200pt;
+	width:200pt;
+	border-width: 2pt;
+
+}
+#pic1{
+	height:200pt;
+	width:200pt;
+	border-width: 2pt;
+	
+}#pic2{
+	height:200pt;
+	width:200pt;
+	border-width: 2pt;
+	
+}#pic3{
+	height:200pt;
+	width:200pt;
+	border-width: 2pt;
+	
+}#pic4{
+	height:200pt;
+	width:200pt;
+	border-width: 2pt;
+}
+
+
+#scroll-top{
+	font-family: sunnfont;
+	src:url(../SUNN.oft);
+	font-size: 35pt;
+	position: fixed;
+	right:30px;
+	bottom:20px;
+	color:orange;
+	
+}
+#scroll-top{
+	cursor: pointer;
+	text-decoration: underline;
+}

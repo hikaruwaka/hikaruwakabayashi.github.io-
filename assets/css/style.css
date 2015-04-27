@@ -1,0 +1,121 @@
+@font-face {
+    font-family: sunnfont;
+    src: url(../SUNN.otf);
+}
+
+
+
+body{
+	color:#00E6E6;
+	font-size: 150pt;
+	background-color:#FFF;
+	text-align: center;
+	font-family: "Lato";
+	margin: 0;
+}
+
+#logo{
+	height:300px;
+	width:800px;
+}
+
+h1{
+	font-size: 15pt;
+}
+
+.wrapper{
+	font-family: "Lato";
+	color:gray;
+	font-size: 30pt;
+}
+
+.container1{
+	font-size:65pt;
+    margin: 50;
+    margin-top:20px; 
+    font-family: sunnfont;
+	src:url(../SUNN.oft);
+
+}
+
+#searchbar {
+position:relative;
+float: center;
+}
+
+#searchbar input {
+border: 1px solid #D3D3D3;
+position:;
+color: #7F7F7F;
+font: 12px;
+height: 30px;
+margin: 0;
+padding: 10px;
+width: 400px;
+font-size: 17px;
+margin-top:40px; 
+}
+
+#button {
+background: #dcdde1;
+height: 40px;
+transition: 0.2s;
+position:relative;
+left:-70px;
+top:15px;
+}
+
+#button:hover {
+background: #86b3d1;
+cursor: pointer;
+}
+
+.container2{
+    position: relative;
+    float:center;   
+    margin-top:40px; 
+    font-size:50pt;
+    margin: 50;
+    margin-top:20px; 
+    font-family: sunnfont;
+	src:url(../SUNN.oft);
+}
+
+.btn{
+  background: #ffffcc;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 10px;
+  font-family: sunnfont;
+	src:url(../SUNN.oft);
+  color: #ffffff;
+  font-size: 50px;
+  padding: 5px 10px 5px 10px;
+ margin-top:40px; 
+ height:50px;
+ width:400px;
+ 
+ }
+
+
+.btn:hover {
+background: #86b3d1;
+cursor: pointer;
+}
+
+.terms{
+  font-size: 30pt;
+  margin-top:40px; 
+  font-family: sunnfont;
+	src:url(../SUNN.oft);
+}
+
+.terms:hover{
+	text-decoration: underline;
+	cursor:pointer;
+}

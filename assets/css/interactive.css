@@ -1,0 +1,80 @@
+@font-face {
+    font-family: sunnfont;
+    src: url(../SUNN.otf);
+
+}
+
+
+
+#logo{
+	height:300px;
+	width:100px;
+	position:relative;
+}
+
+
+.container{
+	vertical-align: 
+}
+
+
+.circle{
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+	background-color: #00E6E6;
+	margin-left: calc(50% - 100px);
+	padding: 40pt;
+	display: block;
+	margin-top:30px;
+	margin-bottom: 30px;
+	color:gray;
+	font-family: sunnfont;
+	text-align: center;
+	font-size: 40pt;
+}
+
+.circle-clicked{
+	width: 90px;
+	height:90px;
+	border-radius: 50%;
+	background-color: #168EF0;
+	margin-left: calc(50% - 100px);
+	padding: 40pt;
+	display: block;
+	margin-top:30px;
+	margin-bottom: 30px;
+	color:white;
+	font-family: sunnfont;
+	text-align: center;
+	font-size: 30pt;
+}
+
+.circle:hover{
+	cursor: pointer;
+}
+
+
+.todonext{
+	text-align: center;
+	font-size: 50pt;
+	font-family: sunnfont;
+	src:url(../SUNN.oft);
+	
+	
+}
+
+.suggestion{    
+}
+
+
+
+.eadd{
+	text-decoration: underline;
+	cursor:pointer;
+	color:blue;
+
+.eadd:hover{
+	background: #86b3d1;
+    cursor: pointer;;
+}
